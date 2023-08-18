@@ -19,11 +19,11 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒ʌnƙɩ ✘ 𝐌ʋsɩƈ")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5336023580").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Kaal-xD/SankiXMusic")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "kaal")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/srikanta309/Music")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "𓆩𝐒𝐫𝐢𝐤𝐚𝐧𝐭𝐚𓆪")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sanki_Owners")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Sanki_World")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/secret_societ")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/secret_societ")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
@@ -64,10 +64,10 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/83cfcc36ef441e516d28f.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/cdd12901b1ffd3ec874d1.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/b596c4509a0f4a07bb392.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/b596c4509a0f4a07bb392.jpg"
 GLOBAL_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
@@ -103,9 +103,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/b596c4509a0f4a07bb392.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/83cfcc36ef441e516d28f.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/cdd12901b1ffd3ec874d1.jpg"
